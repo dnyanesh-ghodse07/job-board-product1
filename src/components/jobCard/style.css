@@ -1,0 +1,30 @@
+.card {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  background: #f4fafb;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: rgb(215, 241, 249);
+  cursor: pointer;
+}
+
+.card .header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .type {
+  background-color: rgb(240, 198, 61);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.card .desc {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
